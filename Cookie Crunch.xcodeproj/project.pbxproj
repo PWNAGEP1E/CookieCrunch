@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F03691E1C907C7D002215EA /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03691D1C907C7D002215EA /* Swap.swift */; };
 		3F21714F1C88C6CF00548155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21714E1C88C6CF00548155 /* AppDelegate.swift */; };
-		3F2171511C88C6CF00548155 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171501C88C6CF00548155 /* GameScene.sks */; };
 		3F2171531C88C6CF00548155 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2171521C88C6CF00548155 /* GameScene.swift */; };
 		3F2171551C88C6CF00548155 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2171541C88C6CF00548155 /* GameViewController.swift */; };
 		3F2171581C88C6CF00548155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171561C88C6CF00548155 /* Main.storyboard */; };
@@ -16,6 +16,17 @@
 		3F21715D1C88C6CF00548155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F21715B1C88C6CF00548155 /* LaunchScreen.storyboard */; };
 		3F2171681C88C6CF00548155 /* Cookie_CrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2171671C88C6CF00548155 /* Cookie_CrunchTests.swift */; };
 		3F2171731C88C6CF00548155 /* Cookie_CrunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2171721C88C6CF00548155 /* Cookie_CrunchUITests.swift */; };
+		3F2171811C88C74200548155 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171801C88C74200548155 /* Sprites.atlas */; };
+		3F21718B1C88C89D00548155 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21718A1C88C89D00548155 /* Cookie.swift */; };
+		3F21718D1C88CD5900548155 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21718C1C88CD5900548155 /* Array2D.swift */; };
+		3F21718F1C88CDA000548155 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21718E1C88CDA000548155 /* Level.swift */; };
+		3F2171961C88D06A00548155 /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171911C88D06A00548155 /* Level_0.json */; };
+		3F2171971C88D06A00548155 /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171921C88D06A00548155 /* Level_1.json */; };
+		3F2171981C88D06A00548155 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171931C88D06A00548155 /* Level_2.json */; };
+		3F2171991C88D06A00548155 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171941C88D06A00548155 /* Level_3.json */; };
+		3F21719A1C88D06A00548155 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F2171951C88D06A00548155 /* Level_4.json */; };
+		3F59F4AF1C8DB4370086B605 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F59F4AE1C8DB4370086B605 /* Tile.swift */; };
+		3F59F4B11C8DB55A0086B605 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F59F4B01C8DB55A0086B605 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F03691D1C907C7D002215EA /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
 		3F21714B1C88C6CF00548155 /* Cookie Crunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Crunch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F21714E1C88C6CF00548155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F2171501C88C6CF00548155 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		3F2171521C88C6CF00548155 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3F2171541C88C6CF00548155 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3F2171571C88C6CF00548155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		3F21716E1C88C6CF00548155 /* Cookie CrunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie CrunchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2171721C88C6CF00548155 /* Cookie_CrunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_CrunchUITests.swift; sourceTree = "<group>"; };
 		3F2171741C88C6CF00548155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2171801C88C74200548155 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		3F21718A1C88C89D00548155 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		3F21718C1C88CD5900548155 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		3F21718E1C88CDA000548155 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		3F2171911C88D06A00548155 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		3F2171921C88D06A00548155 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		3F2171931C88D06A00548155 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		3F2171941C88D06A00548155 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		3F2171951C88D06A00548155 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		3F59F4AE1C8DB4370086B605 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		3F59F4B01C8DB55A0086B605 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +124,18 @@
 			isa = PBXGroup;
 			children = (
 				3F21714E1C88C6CF00548155 /* AppDelegate.swift */,
-				3F2171501C88C6CF00548155 /* GameScene.sks */,
 				3F2171521C88C6CF00548155 /* GameScene.swift */,
+				3F21718A1C88C89D00548155 /* Cookie.swift */,
+				3F03691D1C907C7D002215EA /* Swap.swift */,
+				3F21718C1C88CD5900548155 /* Array2D.swift */,
+				3F21718E1C88CDA000548155 /* Level.swift */,
+				3F59F4B01C8DB55A0086B605 /* Extensions.swift */,
 				3F2171541C88C6CF00548155 /* GameViewController.swift */,
 				3F2171561C88C6CF00548155 /* Main.storyboard */,
+				3F59F4AE1C8DB4370086B605 /* Tile.swift */,
 				3F2171591C88C6CF00548155 /* Assets.xcassets */,
+				3F2171901C88D06A00548155 /* Levels */,
+				3F2171801C88C74200548155 /* Sprites.atlas */,
 				3F21715B1C88C6CF00548155 /* LaunchScreen.storyboard */,
 				3F21715E1C88C6CF00548155 /* Info.plist */,
 			);
@@ -129,6 +158,18 @@
 				3F2171741C88C6CF00548155 /* Info.plist */,
 			);
 			path = "Cookie CrunchUITests";
+			sourceTree = "<group>";
+		};
+		3F2171901C88D06A00548155 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				3F2171911C88D06A00548155 /* Level_0.json */,
+				3F2171921C88D06A00548155 /* Level_1.json */,
+				3F2171931C88D06A00548155 /* Level_2.json */,
+				3F2171941C88D06A00548155 /* Level_3.json */,
+				3F2171951C88D06A00548155 /* Level_4.json */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,10 +276,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2171511C88C6CF00548155 /* GameScene.sks in Resources */,
 				3F21715D1C88C6CF00548155 /* LaunchScreen.storyboard in Resources */,
+				3F21719A1C88D06A00548155 /* Level_4.json in Resources */,
+				3F2171981C88D06A00548155 /* Level_2.json in Resources */,
+				3F2171961C88D06A00548155 /* Level_0.json in Resources */,
 				3F21715A1C88C6CF00548155 /* Assets.xcassets in Resources */,
 				3F2171581C88C6CF00548155 /* Main.storyboard in Resources */,
+				3F2171971C88D06A00548155 /* Level_1.json in Resources */,
+				3F2171991C88D06A00548155 /* Level_3.json in Resources */,
+				3F2171811C88C74200548155 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F21718F1C88CDA000548155 /* Level.swift in Sources */,
 				3F2171531C88C6CF00548155 /* GameScene.swift in Sources */,
+				3F21718B1C88C89D00548155 /* Cookie.swift in Sources */,
+				3F59F4B11C8DB55A0086B605 /* Extensions.swift in Sources */,
+				3F59F4AF1C8DB4370086B605 /* Tile.swift in Sources */,
 				3F2171551C88C6CF00548155 /* GameViewController.swift in Sources */,
 				3F21714F1C88C6CF00548155 /* AppDelegate.swift in Sources */,
+				3F21718D1C88CD5900548155 /* Array2D.swift in Sources */,
+				3F03691E1C907C7D002215EA /* Swap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +544,7 @@
 				3F2171791C88C6CF00548155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F21717A1C88C6CF00548155 /* Build configuration list for PBXNativeTarget "Cookie CrunchTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +553,7 @@
 				3F21717C1C88C6CF00548155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F21717D1C88C6CF00548155 /* Build configuration list for PBXNativeTarget "Cookie CrunchUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +562,7 @@
 				3F21717F1C88C6CF00548155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
